@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 
 type Question = {
   question: string;
@@ -19,6 +19,21 @@ const questions: Question[] = [
     question: 'What is your favorite color?',
     options: ['Red', 'Blue', 'Green'],
     answer: 'Blue',
+  },
+  {
+    question: 'What is your eye colour?',
+    options: ['Blue', 'Green', 'Brown', 'Hazel'],
+    answer: 'Blue',
+  },
+  {
+    question: 'What is your favourite TV show?',
+    options: ['Stranger Things', 'The Office', 'Game of Thrones', 'Friends'],
+    answer: 'The Office',
+  },
+  {
+    question: 'What music genre do you prefer?',
+    options: ['Pop', 'Rock', 'Hip‑Hop', 'Classical'],
+    answer: 'Rock',
   },
 ];
 
